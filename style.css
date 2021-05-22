@@ -1,44 +1,68 @@
+body {
+    font-family: 'Antonio', sans-serif;
+    background-color:lightblue;
+    color:rgb(0, 140, 255);
+    font: 20px;
+}
+.header_div {
+    background:rgb(0, 140, 255);
+    color: lightblue;
+}
+.header_div img{
+    width: 100px;
+    border-radius: 100px;
+}
+.main_div {
+    background: tomato;
+    padding: 10px;
+    margin-top: 15px;
+    border: 3px solid red;
+}
+.main_div label {
+    background: red;
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+#camera,#result{
+    border: 2px solid white;
+    width: 310px;
+    height: 300px;
+}
+.main_div button {
+    width: 310px;
+    font-size: 15px;
+    border: 1px solid;
+    color: red;
+}
+.footer_div {
+    margin-bottom: 60px;
+}
+.footer_div h4{
+    background: rgb(0, 140, 255);
+    border-radius: 10px;
+    padding: 5px;
+}
+.footer_div img {
+    width: 70px;
+}
 .copy_right_footer {
     position: fixed;
-    color: #6c757d;
-    bottom: 0;
+    color:lightblue;
+    bottom: 0px;
     width: 100%;
-    background-color: red;
+    background-color: rgb(0, 140, 255);
     line-height: 3;
-    text-align: center;
-      font-family: 'Special Elite', cursive;
- 
- }
- 
- span
- {
-     color: yellow;
-     font-size: 16px;
- }	
- li img
- {
-     width: 200px;
-     border-radius: 20px;
- }
- .bob
- {
-     background: red;
-     padding: 30px;
-     border-radius: 20px;
-     width: 50%;
-     display: inline-block;
-     box-shadow: 5px 5px 18px grey;
- }
- b
- {
-     color: yellow;
- }
- 
- .bob3
- {
-     text-align: center;
-     background: yellow;
-     border-radius: 20px;
-     padding: 10px;
- }
- 
+    text-align:center;
+    height: 10px;
+}
+.img-responsive{
+    height: 200px;
+    border: 3px solid;
+    border-radius: 20px;
+}
+.google{
+    height: 150px;
+    border: 3px solid;
+    border-radius: 20px;
+}
