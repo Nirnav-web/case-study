@@ -1,4 +1,4 @@
-function N(){
+function popup(){
     window.alert("Hope You Like This App By Nirnav")
 }
 Webcam.set({
